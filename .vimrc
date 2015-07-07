@@ -9,13 +9,14 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'scrooloose/nerdtree'
+Plugin 'sudar/vim-arduino-syntax'
 "Plugin 'valloric/YouCompleteMe' 
 
 call vundle#end()
 filetype plugin indent on
 
 syntax on
-
+set t_Co=256
 colorscheme adaryn 
 
 set autoread
@@ -59,7 +60,7 @@ set cmdheight=5
 set clipboard=unnamed
 
 " Spellchecker
-set spell
+"set spell
 
 " Update vim after writing buffer
 if has("autocmd")
