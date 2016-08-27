@@ -1,29 +1,54 @@
-xterm*termName: xterm-256
-xterm*locale: true
-xterm*colorMode: on
-xterm*faceName: DejaVu Sans Mono:style=book :antialias=false 
-xterm*faceSize: 11
-xterm*borderWidth: 0
-! double-click to select whole URLs
-xterm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+!urxvt.termName: rxvt-256color
+!urxvt*locale: true
+!urxvt*colorMode: on
+!urxvt.font: xft:Inconsolata:antialias=true:size=12, FontAwesome:size=12 
+urxvt.font: xft:Hack:size=10, FontAwesome:size=10
+!urxvt.letterSpace: -5
+!urxvt*faceSize: 13
+urxvt*borderWidth: 0
 
-! foreground is the general color
-xterm*foreground: rgb:ff/ac/30
-! background currently set to black
-xterm*background: rgb:00/00/00
-xterm*color0: rgb:00/00/00
-xterm*color1: rgb:ff/00/00
-xterm*color2: rgb:ae/ce/91
-xterm*color3: rgb:e7/e1/8c
-xterm*color4: rgb:7a/7a/b0
-xterm*color5: rgb:96/3c/59
-xterm*color6: rgb:00/a8/a8
-xterm*color7: rgb:be/be/be
-xterm*color8: rgb:66/66/66
-xterm*color9: rgb:ef/81/71
-xterm*color10: rgb:ef/f7/79
-xterm*color11: rgb:ff/f7/99
-xterm*color12: rgb:41/86/be
-xterm*color13: rgb:ef/9e/be
-xterm*color14: rgb:71/be/be
-xterm*color15: rgb:ff/ff/ff
+! double-click to select whole URLs
+!urxvt*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+
+!I do not like the scrollbar so disable that
+urxvt.scrollBar: false
+
+!Add transparancey
+urxvt.transparent:true
+urxvt.shading:30
+
+!Gslob nature-suede from xcolors.net
+urxvt*foreground: #d3d3a9
+urxvt*background: #27261f
+
+urxvt*color0: #212121
+urxvt*color1: #b15050
+
+urxvt*color2: #88a057
+urxvt*color3: #c79342
+
+urxvt*color4: #4d7f5c
+urxvt*color5: #9b4769
+
+urxvt*color6: #aaab46
+urxvt*color7: #d3d3a9 !This is the comment color
+
+urxvt*color8: #343434
+urxvt*color9: #d68181
+
+urxvt*color10: #abc080 !Need to change this color
+urxvt*color11: #ebba6e
+
+urxvt*color12: #6e987b
+urxvt*color13: #bc7390
+
+urxvt*color14: #cfd074
+urxvt*color15: #e3e3e9
+
+urxvt*cursorColor: #d3d3a9
+urxvt*highlightColor: #d3d3a9
+urxvt*highlightTextColor: #27261f
+
+!!!!!!! Rofi !!!!!!
+rofi.opacity: 80
+rofi.fullscreen: true
